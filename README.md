@@ -4,7 +4,7 @@
 
 ## 技術環境
 
-- **Java**: 17
-- **Spring**: 3.3.5
+- **Java**: zulu-8
+- **Spring**: 2.7.8
 - **資料庫**: H2
   - 使用Spring Data JPA 進行 ORM 操作

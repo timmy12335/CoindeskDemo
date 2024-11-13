@@ -43,7 +43,7 @@ public class CurrencyInfoServiceImpl implements CurrencyInfoService {
                     currencyInfo.setRate(currency.getRateFloat());
                     return currencyInfo;
                 })
-                .toList();
+                .collect(Collectors.toList());
 
         currencyInfoResBean.setUpdateTime(DateUtils.formatTime(coinDeskApiResBean.getUpdateTime().getUpdatedISO()));
         currencyInfoResBean.setCurrencyInfo(currencyInfoList);

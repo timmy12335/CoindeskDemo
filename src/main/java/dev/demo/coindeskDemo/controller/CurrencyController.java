@@ -40,7 +40,7 @@ public class CurrencyController {
     @PutMapping
     @Operation(summary = "更新幣別")
     public Currency updateCurrency(@RequestBody CurrencyReqBean currency){
-        if(currencyService.findById(currency.getCode()).isEmpty()){
+        if(!currencyService.findById(currency.getCode()).isPresent()){
             throw new CurrencyException("沒有對應幣別");
         }
         return currencyService.saveCurrency(currency);

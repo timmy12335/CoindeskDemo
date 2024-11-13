@@ -187,7 +187,7 @@ public class CurrencyServiceTest {
         currencyInfo.setCode("USD");
         currencyInfo.setName("美元");
         currencyInfo.setRate(BigDecimal.valueOf(50000.0));
-        currencyInfoResBean.setCurrencyInfo(List.of(currencyInfo));
+        currencyInfoResBean.setCurrencyInfo(Collections.singletonList(currencyInfo));
 
         when(currencyInfoService.getCurrencyInfo()).thenReturn(currencyInfoResBean);
 
