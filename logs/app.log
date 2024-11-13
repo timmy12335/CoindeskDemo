@@ -1,0 +1,159 @@
+2024-11-13 00:00:04 [main] INFO  d.d.c.C.CurrencyServiceTest - Starting CurrencyServiceTest using Java 17.0.7 with PID 55293 (started by wangzhilin in /Users/wangzhilin/個人專區/CoinDeskDemo/coindeskDemo)
+2024-11-13 00:00:04 [main] DEBUG d.d.c.C.CurrencyServiceTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-13 00:00:04 [main] INFO  d.d.c.C.CurrencyServiceTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 00:00:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13 00:00:04 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2024-11-13 00:00:04 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b2c61e62-e0f9-36e3-9fa8-4d94afb55fec
+2024-11-13 00:00:05 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-13 00:00:05 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-13 00:00:05 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-13 00:00:05 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13 00:00:05 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13 00:00:05 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-13 00:00:05 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13 00:00:06 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13 00:00:06 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13 00:00:06 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13 00:00:06 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13 00:00:06 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-13 00:00:06 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-11-13 00:00:06 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-11-13 00:00:06 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-11-13 00:00:06 [main] INFO  d.d.c.C.CurrencyServiceTest - Started CurrencyServiceTest in 2.694 seconds (process running for 3.198)
+2024-11-13 00:00:07 [main] INFO  d.d.c.C.CurrencyServiceTest - {"status":"success","statusCode":"200","body":[{"code":"USD","name":"ç¾å"},{"code":"EUR","name":"æ­å"}]}
+2024-11-13 00:00:07 [main] INFO  d.d.c.C.CurrencyServiceTest - 中文
+2024-11-13 00:00:07 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13 00:00:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-13 00:00:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-13 00:01:27 [main] INFO  d.d.c.C.CurrencyServiceTest - Starting CurrencyServiceTest using Java 17.0.7 with PID 55312 (started by wangzhilin in /Users/wangzhilin/個人專區/CoinDeskDemo/coindeskDemo)
+2024-11-13 00:01:27 [main] DEBUG d.d.c.C.CurrencyServiceTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-13 00:01:27 [main] INFO  d.d.c.C.CurrencyServiceTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 00:01:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13 00:01:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-11-13 00:01:28 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b2c61e62-e0f9-36e3-9fa8-4d94afb55fec
+2024-11-13 00:01:29 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-13 00:01:29 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-13 00:01:29 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-13 00:01:29 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13 00:01:29 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13 00:01:29 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-13 00:01:29 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13 00:01:29 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13 00:01:29 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13 00:01:29 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13 00:01:29 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13 00:01:30 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-13 00:01:30 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-11-13 00:01:30 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-11-13 00:01:30 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-11-13 00:01:30 [main] INFO  d.d.c.C.CurrencyServiceTest - Started CurrencyServiceTest in 2.593 seconds (process running for 3.078)
+2024-11-13 00:01:30 [main] INFO  d.d.c.C.CurrencyServiceTest - {"status":"success","statusCode":"200","body":[{"code":"USD","name":"美元"},{"code":"EUR","name":"歐元"}]}
+2024-11-13 00:01:30 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13 00:01:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-13 00:01:30 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-13 00:02:13 [main] INFO  d.d.c.C.CurrencyServiceTest - Starting CurrencyServiceTest using Java 17.0.7 with PID 55326 (started by wangzhilin in /Users/wangzhilin/個人專區/CoinDeskDemo/coindeskDemo)
+2024-11-13 00:02:13 [main] DEBUG d.d.c.C.CurrencyServiceTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-13 00:02:13 [main] INFO  d.d.c.C.CurrencyServiceTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 00:02:14 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13 00:02:14 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2024-11-13 00:02:14 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b2c61e62-e0f9-36e3-9fa8-4d94afb55fec
+2024-11-13 00:02:15 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-13 00:02:15 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-13 00:02:15 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-13 00:02:15 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13 00:02:15 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13 00:02:15 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-13 00:02:15 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13 00:02:15 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13 00:02:15 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13 00:02:15 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13 00:02:16 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13 00:02:16 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-13 00:02:16 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-11-13 00:02:16 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-11-13 00:02:16 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-11-13 00:02:16 [main] INFO  d.d.c.C.CurrencyServiceTest - Started CurrencyServiceTest in 2.632 seconds (process running for 3.121)
+2024-11-13 00:02:16 [main] INFO  d.d.c.C.CurrencyServiceTest - {"status":"success","statusCode":"200","body":{"code":"USD","name":"美金"}}
+2024-11-13 00:02:16 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13 00:02:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-13 00:02:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-13 09:36:31 [main] INFO  d.d.c.C.CurrencyServiceTest - Starting CurrencyServiceTest using Java 17.0.7 with PID 57412 (started by wangzhilin in /Users/wangzhilin/個人專區/CoinDeskDemo/coindeskDemo)
+2024-11-13 09:36:31 [main] DEBUG d.d.c.C.CurrencyServiceTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-13 09:36:31 [main] INFO  d.d.c.C.CurrencyServiceTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 09:36:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13 09:36:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2024-11-13 09:36:31 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5a70bc62-8047-3bb5-88db-8518dbb309b2
+2024-11-13 09:36:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-13 09:36:32 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-13 09:36:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-13 09:36:32 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13 09:36:32 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13 09:36:32 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-13 09:36:32 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13 09:36:32 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13 09:36:33 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13 09:36:33 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13 09:36:33 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13 09:36:33 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-13 09:36:33 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-11-13 09:36:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-11-13 09:36:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-11-13 09:36:33 [main] INFO  d.d.c.C.CurrencyServiceTest - Started CurrencyServiceTest in 2.729 seconds (process running for 3.308)
+2024-11-13 09:36:33 [main] INFO  d.d.c.C.CurrencyServiceTest - [{"code":"USD","name":"美元"},{"code":"EUR","name":"歐元"}]
+2024-11-13 09:36:33 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13 09:36:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-13 09:36:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-13 09:38:22 [main] INFO  d.d.c.C.CurrencyServiceTest - Starting CurrencyServiceTest using Java 17.0.7 with PID 57430 (started by wangzhilin in /Users/wangzhilin/個人專區/CoinDeskDemo/coindeskDemo)
+2024-11-13 09:38:22 [main] DEBUG d.d.c.C.CurrencyServiceTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-13 09:38:22 [main] INFO  d.d.c.C.CurrencyServiceTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 09:38:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13 09:38:23 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-11-13 09:38:23 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5a70bc62-8047-3bb5-88db-8518dbb309b2
+2024-11-13 09:38:24 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-13 09:38:24 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-13 09:38:24 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-13 09:38:24 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13 09:38:24 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13 09:38:24 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-13 09:38:24 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13 09:38:24 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13 09:38:24 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13 09:38:24 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13 09:38:25 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13 09:38:25 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-13 09:38:25 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-11-13 09:38:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-11-13 09:38:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-11-13 09:38:25 [main] INFO  d.d.c.C.CurrencyServiceTest - Started CurrencyServiceTest in 2.667 seconds (process running for 3.174)
+2024-11-13 09:38:25 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13 09:38:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-13 09:38:25 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-11-13 09:44:34 [main] INFO  d.d.c.C.CurrencyServiceTest - Starting CurrencyServiceTest using Java 17.0.7 with PID 57467 (started by wangzhilin in /Users/wangzhilin/個人專區/CoinDeskDemo/coindeskDemo)
+2024-11-13 09:44:34 [main] DEBUG d.d.c.C.CurrencyServiceTest - Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-13 09:44:34 [main] INFO  d.d.c.C.CurrencyServiceTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 09:44:35 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-13 09:44:35 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-11-13 09:44:35 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=5a70bc62-8047-3bb5-88db-8518dbb309b2
+2024-11-13 09:44:36 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-11-13 09:44:36 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-11-13 09:44:36 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-11-13 09:44:36 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-13 09:44:36 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-13 09:44:36 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-11-13 09:44:36 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-13 09:44:36 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-13 09:44:36 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-13 09:44:36 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13 09:44:37 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-13 09:44:37 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-11-13 09:44:37 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-11-13 09:44:37 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-11-13 09:44:37 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-11-13 09:44:37 [main] INFO  d.d.c.C.CurrencyServiceTest - Started CurrencyServiceTest in 2.582 seconds (process running for 3.072)
+2024-11-13 09:44:37 [main] INFO  d.d.c.C.CurrencyServiceTest - {"time":{"updated":"Nov 12, 2024 14:29:42 UTC","updatedISO":"2024-11-12T14:29:42+00:00","updateduk":"Nov 12, 2024 at 14:29 GMT"},"disclaimer":"This data was produced from the CoinDesk Bitcoin Price Index (USD). Non-USD currency data converted using hourly conversion rate from openexchangerates.org","chartName":"Bitcoin","bpi":{"EUR":{"code":"EUR","symbol":"&euro;","rate":"80,600.483","description":"Euro","rate_float":80600.4829},"GBP":{"code":"GBP","symbol":"&pound;","rate":"66,836.031","description":"British Pound Sterling","rate_float":66836.0314},"USD":{"code":"USD","symbol":"&#36;","rate":"85,620.589","description":"United States Dollar","rate_float":85620.5893}}}
+2024-11-13 09:44:37 [main] INFO  d.d.c.C.CurrencyServiceTest - {"code":"USD","name":"美金"}
+2024-11-13 09:44:37 [main] INFO  d.d.c.C.CurrencyServiceTest - [{"code":"USD","name":"美元"},{"code":"EUR","name":"歐元"}]
+2024-11-13 09:44:37 [main] INFO  d.d.c.C.CurrencyServiceTest - {"updateTime":"2024/11/12 08:48:50","currencyInfo":[{"code":"USD","name":"美元","rate":50000.0}]}
+2024-11-13 09:44:37 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-13 09:44:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-11-13 09:44:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
