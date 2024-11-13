@@ -2,6 +2,7 @@ package dev.demo.coindeskDemo.controller;
 
 import dev.demo.coindeskDemo.entity.Currency;
 import dev.demo.coindeskDemo.exception.CurrencyException;
+import dev.demo.coindeskDemo.model.currency.CurrencyReqBean;
 import dev.demo.coindeskDemo.model.currencyInfo.CurrencyInfoResBean;
 import dev.demo.coindeskDemo.service.CurrencyInfoService;
 import dev.demo.coindeskDemo.service.CurrencyService;
@@ -29,7 +30,7 @@ public class CurrencyController {
 
     @PostMapping
     @Operation(summary = "新增幣別")
-    public Currency saveCurrency(@RequestBody Currency currency){
+    public Currency saveCurrency(@RequestBody CurrencyReqBean currency){
         if(currencyService.findById(currency.getCode()).isPresent()){
             throw new CurrencyException("已存在對應幣別");
         }
@@ -38,7 +39,7 @@ public class CurrencyController {
 
     @PutMapping
     @Operation(summary = "更新幣別")
-    public Currency updateCurrency(@RequestBody Currency currency){
+    public Currency updateCurrency(@RequestBody CurrencyReqBean currency){
         if(currencyService.findById(currency.getCode()).isEmpty()){
             throw new CurrencyException("沒有對應幣別");
         }

@@ -1,6 +1,7 @@
 package dev.demo.coindeskDemo.service.impl;
 
 import dev.demo.coindeskDemo.entity.Currency;
+import dev.demo.coindeskDemo.model.currency.CurrencyReqBean;
 import dev.demo.coindeskDemo.repository.CurrencyRepository;
 import dev.demo.coindeskDemo.service.CurrencyService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +24,10 @@ public class CurrencyServiceImpl implements CurrencyService {
     }
 
     @Override
-    public Currency saveCurrency(Currency currency) {
+    public Currency saveCurrency(CurrencyReqBean reqBean) {
+        // RequestBean 轉成 Entity
+        Currency currency = new Currency(reqBean.getCode(), reqBean.getName());
+
         return currencyRepository.save(currency);
     }
 
